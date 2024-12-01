@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+/* start the header */
+header{
+    padding-left: 50px;
+    padding-right: 40px;
+    background-color: #3b82f6;
+
+}
+#checkbox{
+    display: none;
+}
+.chackbar{
+ display: none;
+   color: #000;
+   font-size: 27px;
+}
+/* end the header */
+
+/* start  the navbar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+    
+}
+ul  {
+    display: flex;
+    gap: 30px;
+}
+.li , a{
+    display: flex;
+    gap: 10px;
+    color: #ffff;
+    font-size: 20px;
+}
+.butt{
+    font-size: 20px;
+     border: 1px solid #ffff;
+     width: 130px;
+     height: 40px;
+     border-radius: 20px;
+     display: flex;
+     justify-content: center;
+    }
+    /* end the navbar */
+
+    /* start the comtenar */
+
+    /* end the contenar */
+
+
+   @media screen and (max-width: 768px) {
+       /* start the header */
+       header{
+           padding-left: 40px;
+           padding-right: 10px;
+           background: #491d8b;
+}
+nav ul {
+    position: fixed;
+    top:54px ;
+    right: 0px;
+    background-color: #5799fb;
+    z-index: 20;
+    width: 100%;
+    height: 100%;
+    display: block;
+    right: -100%;
+    transition: all 0.5s ease;
+}
+ul li {
+    margin-top: 20PX;
+    text-align: center;
+}
+.chackbar{
+font-size: 40px;
+display: block;
+}
+nav ul .chackbar i{
+cursor: pointer;
+}
+nav{
+justify-content: space-between;
+}
+#checkbox:checked ~ ul {
+    display: block;
+    right: 0;
+    transition: all 0.5s ease;
+}
+/* end the header */
+
+/* start  the navbar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+    
+}
+ul  {
+    display: flex;
+    gap: 30px;
+    display: none;
+}
+.li , a{
+    display: flex;
+    gap: 10px;
+    color: #ffff;
+    font-size: 20px;
+}
+/* .butt{
+    font-size: 20px;
+    border: 1px solid #ffff;
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    display: none;
+} */
+/* end the navbar */
+}
+
+ /* @media screen and (min-width: 318px) and (max-width:378){ */
+    /* start the comtenar */
+/* .main-cont-1{
+    width: 57%;
+    height: 94%;
+    padding-left: 5px;
+}
+.h1{
+ font-size: 20px;
+}
+.p1{
+
+}
+
+.butt-1{
+
+}
+.main-cont-2{
+  width: 40%;
+  height: 94%;
+}
+.img-1{
+
+}
+.img-2{
+    position: relative;
+     right: 30px;
+}
+/* end the contenar */
+
+/* }  */

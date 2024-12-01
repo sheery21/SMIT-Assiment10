@@ -1,0 +1,834 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+        font-family: "Roboto", serif;
+        font-weight: 400;
+        font-style: normal;
+}
+/* start the header */
+header{
+    padding-left: 50px;
+    padding-right: 40px;
+    background: rgba(255, 255, 255, 0.147);
+
+
+}
+#checkbox{
+    display: none;
+}
+.chackbar{
+ /* display: none; */
+   color: #fff;
+   font-size: 27px;
+}
+/* end the header */
+
+/* start  the navbar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+    
+}
+.nav-div{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+ul  {
+    display: flex;
+    gap: 30px;
+    display: none;
+}
+.li , a{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #ffff;
+    font-size: 20px;
+}
+.butt{
+    font-size: 20px;
+     border: 1px solid #ffff;
+     background-color: #fff;
+     width: 150px;
+     color: #000;
+     height: 40px;
+     border-radius: 20px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    /* end the navbar */
+    /* start the conteaner */
+    .main-image{
+        background-image: url("https://s3-alpha-sig.figma.com/img/0cfe/eda4/188d4860e6913abbbd4b206adbd37754?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=IaR3anQd8qvhOOrxnMdmRQU0s5z8WcRfsvb-M-YrrZRICka7CXhonmOMjO2cmoueqOchFD47Nvywqp5HJcXwFd7EZ~1kMEtlYKa8Zo-igg9ZS05vw8gbCe8WC36z0SngpiUpU8Ys6DlSJuRtmT3NRXGKy~HdGvMTcwg5dpL5LDzMYsPoONGLvsk~s9m2BnogEZbOT0gywIWc2Jlf8o-HVC21FSRiqGa0wcby9K2qtF9tIViY1QW8o8sYCVqLtXDEJYZU22bO9~WgdlAX11laVJ2r84UswtxJukFzoEzl3oya1SoydAcy1oiIHBlallfAKgoCifsinXaImGvtGFCGsw__");
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .conteaner{
+        height:80%;
+         width: 100%;
+         background-color: rgba(0, 0, 0, 0.168);
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         gap: 90px;
+         padding-top: 50px;
+         
+    }
+    .conteaner-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .main-cont-1{
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      text-align: center;
+    }
+    .h1{
+       font-size: 50px;
+    }
+    form{
+        display: flex;
+        gap: 10px;
+        width: 1000px;
+        height: 40px;
+        background-color: #fff;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    input{
+        border: none;
+        width: 900px;
+        font-size: 20px;
+        padding-left: 20px;
+        border-style: none;
+        border-radius: 20px;
+    }
+    .buttons{
+        width: 180px;
+        border-radius: 20px;
+        margin-right: 5px;
+        border: none;
+        color: #fff;
+        font-size: 18px;
+        height: 90%;
+        background: rgb(151,51,238);
+        background: linear-gradient(318deg, rgba(151,51,238,1) 29%, rgba(218,34,255,1) 79%);
+    }
+
+    .main-cont-2{
+     display: flex;
+     gap: 20px;
+     flex-wrap: wrap;
+    }
+    .img-1{
+        display: flex;
+        width: 250px;
+        gap: 0px;
+        flex-direction: column;
+    }
+    .my-ing-1{
+        width: 250px;
+        height: 200px;
+        border-radius: 20px;
+    }
+   .far{
+         font-size: 40px;
+         color: #fff;
+         position: relative;
+         bottom: 155px;
+         left: 100px;
+         width: 100px;
+         border-radius: 20px;
+        }
+    .p2{
+       color: #fff;
+    }
+    .far1{
+     width: 150px;
+    }
+    /* end the conteanre */
+
+
+
+    @media screen and (max-width: 768px) {
+        /* start the header */
+        header{
+            padding-left: 20px;
+            padding-right: 10px;
+            background: #ffffff33;
+ }
+ .main-image{
+    background-image: url("https://s3-alpha-sig.figma.com/img/0cfe/eda4/188d4860e6913abbbd4b206adbd37754?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=IaR3anQd8qvhOOrxnMdmRQU0s5z8WcRfsvb-M-YrrZRICka7CXhonmOMjO2cmoueqOchFD47Nvywqp5HJcXwFd7EZ~1kMEtlYKa8Zo-igg9ZS05vw8gbCe8WC36z0SngpiUpU8Ys6DlSJuRtmT3NRXGKy~HdGvMTcwg5dpL5LDzMYsPoONGLvsk~s9m2BnogEZbOT0gywIWc2Jlf8o-HVC21FSRiqGa0wcby9K2qtF9tIViY1QW8o8sYCVqLtXDEJYZU22bO9~WgdlAX11laVJ2r84UswtxJukFzoEzl3oya1SoydAcy1oiIHBlallfAKgoCifsinXaImGvtGFCGsw__");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+ nav ul {
+     position: fixed;
+     display: block;
+     top:64px ;
+     left: 0px;
+     background-color: #5799fb;
+     z-index: 20;
+     width: 100%;
+     height: 100%;
+     left: -100%;
+     transition: all 0.5s ease;
+ }
+ ul li {
+     margin-top: 20PX;
+     text-align: center;
+     display: block;
+ }
+ .chackbar{
+ font-size: 40px;
+ display: block;
+ }
+ nav ul .chackbar i{
+ cursor: pointer;
+ }
+ nav{
+ justify-content: space-between;
+ }
+ #checkbox:checked ~ ul {
+     display: block;
+       left: 0;
+     transition: all 0.5s ease;
+ }
+ /* end the header */
+ 
+ /* start  the navbar */
+ nav{
+     display: flex;
+     justify-content: space-between;
+     height: 10vh;
+     align-items: center;
+     
+ }
+ ul  {
+     display: flex;
+     gap: 30px;
+     display: none;
+     flex-direction: column
+ }
+ .li , a{
+     display: flex;
+     gap: 10px;
+     flex-direction: column;
+     color: #ffff;
+     font-size: 20px;
+ }
+ .butt{
+     font-size: 20px;
+     border: 1px solid #ffff;
+     width: 130px;
+     height: 40px;
+     border-radius: 20px;
+     display: flex;
+     justify-content: center;
+     /* display: none; */
+ }
+ /* end the navbar */
+ }
+ 
+ @media screen and (min-width: 318px) and (max-width:375px) {
+    .main-image{
+        background-image: url("https://s3-alpha-sig.figma.com/img/0cfe/eda4/188d4860e6913abbbd4b206adbd37754?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=IaR3anQd8qvhOOrxnMdmRQU0s5z8WcRfsvb-M-YrrZRICka7CXhonmOMjO2cmoueqOchFD47Nvywqp5HJcXwFd7EZ~1kMEtlYKa8Zo-igg9ZS05vw8gbCe8WC36z0SngpiUpU8Ys6DlSJuRtmT3NRXGKy~HdGvMTcwg5dpL5LDzMYsPoONGLvsk~s9m2BnogEZbOT0gywIWc2Jlf8o-HVC21FSRiqGa0wcby9K2qtF9tIViY1QW8o8sYCVqLtXDEJYZU22bO9~WgdlAX11laVJ2r84UswtxJukFzoEzl3oya1SoydAcy1oiIHBlallfAKgoCifsinXaImGvtGFCGsw__");
+        height: 250vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .conteaner{
+        height:80%;
+         width: 100%;
+         background-color: rgba(0, 0, 0, 0.168);
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         gap: 50px;
+         padding-top: 150px;
+         
+    }
+    .conteaner-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .main-cont-1{
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      text-align: center;
+    }
+    .h1{
+       font-size: 30px;
+    }
+    form{
+        display: flex;
+        gap: 0px;
+        width: 300px;
+        height: 40px;
+        background-color: #fff;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    input{
+        border: none;
+        width: 220px;
+        font-size: 20px;
+        padding-left: 20px;
+        border-style: none;
+        border-radius: 20px;
+    }
+    button{
+        width: 50px;
+        border-radius: 20px;
+        margin-right: 5px;
+        border: none;
+        color: #fff;
+        font-size: 18px;
+        height: 90%;
+        background: rgb(151,51,238);
+        background: linear-gradient(318deg, rgba(151,51,238,1) 29%, rgba(218,34,255,1) 79%);
+    }
+
+    .main-cont-2{
+     display: flex;
+     flex-direction: column;
+     gap: 5px;
+    }
+    .img-1{
+        display: flex;
+        width: 250px;
+        gap: 0px;
+        flex-direction: column;
+    }
+    .my-ing-1{
+        width: 250px;
+        height: 200px;
+        border-radius: 20px;
+    }
+   .far{
+         font-size: 40px;
+         color: #fff;
+         position: relative;
+         bottom: 155px;
+         left: 100px;
+         width: 100px;
+         border-radius: 20px;
+        }
+    .p2{
+       color: #fff;
+    }
+    .far1{
+     width: 150px;
+    }
+    /* end the conteanre */
+ }
+ @media screen and (min-width: 375px) and (max-width:425px) {
+    .main-image{
+        background-image: url("https://s3-alpha-sig.figma.com/img/0cfe/eda4/188d4860e6913abbbd4b206adbd37754?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=IaR3anQd8qvhOOrxnMdmRQU0s5z8WcRfsvb-M-YrrZRICka7CXhonmOMjO2cmoueqOchFD47Nvywqp5HJcXwFd7EZ~1kMEtlYKa8Zo-igg9ZS05vw8gbCe8WC36z0SngpiUpU8Ys6DlSJuRtmT3NRXGKy~HdGvMTcwg5dpL5LDzMYsPoONGLvsk~s9m2BnogEZbOT0gywIWc2Jlf8o-HVC21FSRiqGa0wcby9K2qtF9tIViY1QW8o8sYCVqLtXDEJYZU22bO9~WgdlAX11laVJ2r84UswtxJukFzoEzl3oya1SoydAcy1oiIHBlallfAKgoCifsinXaImGvtGFCGsw__");
+        height: 290vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .conteaner{
+        height:80%;
+         width: 100%;
+         background-color: rgba(0, 0, 0, 0.168);
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         gap: 50px;
+         padding-top: 230px;
+         
+    }
+    .conteaner-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .main-cont-1{
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      text-align: center;
+    }
+    .h1{
+       font-size: 30px;
+    }
+    form{
+        display: flex;
+        gap: 0px;
+        width: 350px;
+        height: 40px;
+        background-color: #fff;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    input{
+        border: none;
+        width: 240px;
+        font-size: 20px;
+        padding-left: 20px;
+        border-style: none;
+        border-radius: 20px;
+    }
+    button{
+        width: 100px;
+        border-radius: 20px;
+        margin-right: 5px;
+        border: none;
+        color: #fff;
+        font-size: 18px;
+        height: 90%;
+        background: rgb(151,51,238);
+        background: linear-gradient(318deg, rgba(151,51,238,1) 29%, rgba(218,34,255,1) 79%);
+    }
+
+    .main-cont-2{
+     display: flex;
+     flex-direction: column;
+     gap: 5px;
+    }
+    .img-1{
+        display: flex;
+        width: 250px;
+        gap: 0px;
+        flex-direction: column;
+    }
+    .my-ing-1{
+        width: 250px;
+        height: 200px;
+        border-radius: 20px;
+    }
+   .far{
+         font-size: 40px;
+         color: #fff;
+         position: relative;
+         bottom: 155px;
+         left: 100px;
+         width: 100px;
+         border-radius: 20px;
+        }
+    .p2{
+       color: #fff;
+    }
+    .far1{
+     width: 150px;
+    }
+    /* end the conteanre */
+ }
+ @media screen and (min-width: 425px) and (max-width:768px) {
+    .main-image{
+        background-image: url("https://s3-alpha-sig.figma.com/img/0cfe/eda4/188d4860e6913abbbd4b206adbd37754?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=IaR3anQd8qvhOOrxnMdmRQU0s5z8WcRfsvb-M-YrrZRICka7CXhonmOMjO2cmoueqOchFD47Nvywqp5HJcXwFd7EZ~1kMEtlYKa8Zo-igg9ZS05vw8gbCe8WC36z0SngpiUpU8Ys6DlSJuRtmT3NRXGKy~HdGvMTcwg5dpL5LDzMYsPoONGLvsk~s9m2BnogEZbOT0gywIWc2Jlf8o-HVC21FSRiqGa0wcby9K2qtF9tIViY1QW8o8sYCVqLtXDEJYZU22bO9~WgdlAX11laVJ2r84UswtxJukFzoEzl3oya1SoydAcy1oiIHBlallfAKgoCifsinXaImGvtGFCGsw__");
+        height: 270vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .conteaner{
+        height:80%;
+         width: 100%;
+         background-color: rgba(0, 0, 0, 0.168);
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         gap: 50px;
+         padding-top: 160px;
+         
+    }
+    .conteaner-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .main-cont-1{
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      text-align: center;
+    }
+    .h1{
+       font-size: 30px;
+    }
+    form{
+        display: flex;
+        gap: 0px;
+        width: 400px;
+        height: 40px;
+        background-color: #fff;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    input{
+        border: none;
+        width: 290px;
+        font-size: 20px;
+        padding-left: 20px;
+        border-style: none;
+        border-radius: 20px;
+    }
+    button{
+        width: 100px;
+        border-radius: 20px;
+        margin-right: 5px;
+        border: none;
+        color: #fff;
+        font-size: 18px;
+        height: 90%;
+        background: rgb(151,51,238);
+        background: linear-gradient(318deg, rgba(151,51,238,1) 29%, rgba(218,34,255,1) 79%);
+    }
+
+    .main-cont-2{
+     display: flex;
+     flex-direction: column;
+     gap: 5px;
+    }
+    .img-1{
+        display: flex;
+        width: 350px;
+        gap: 0px;
+        flex-direction: column;
+    }
+    .my-ing-1{
+        width: 350px;
+        height: 200px;
+        border-radius: 20px;
+    }
+   .far{
+         font-size: 40px;
+         color: #fff;
+         position: relative;
+         bottom: 155px;
+         left: 150px;
+         width: 100px;
+         border-radius: 20px;
+        }
+    .p2{
+       color: #fff;
+    }
+    /* end the conteanre */
+ }
+ @media screen and (min-width: 768px) and (max-width:1024px) {
+    .main-image{
+        background-image: url("https://s3-alpha-sig.figma.com/img/0cfe/eda4/188d4860e6913abbbd4b206adbd37754?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=IaR3anQd8qvhOOrxnMdmRQU0s5z8WcRfsvb-M-YrrZRICka7CXhonmOMjO2cmoueqOchFD47Nvywqp5HJcXwFd7EZ~1kMEtlYKa8Zo-igg9ZS05vw8gbCe8WC36z0SngpiUpU8Ys6DlSJuRtmT3NRXGKy~HdGvMTcwg5dpL5LDzMYsPoONGLvsk~s9m2BnogEZbOT0gywIWc2Jlf8o-HVC21FSRiqGa0wcby9K2qtF9tIViY1QW8o8sYCVqLtXDEJYZU22bO9~WgdlAX11laVJ2r84UswtxJukFzoEzl3oya1SoydAcy1oiIHBlallfAKgoCifsinXaImGvtGFCGsw__");
+        height: 270vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .conteaner{
+        height:80%;
+         width: 100%;
+         background-color: rgba(0, 0, 0, 0.168);
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         gap: 50px;
+         padding-top: 160px;
+         
+    }
+    .conteaner-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+            gap: 50px;
+    }
+    .main-cont-1{
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      text-align: center;
+    }
+    .h1{
+       font-size: 40px;
+    }
+    form{
+        display: flex;
+        gap: 0px;
+        width: 700px;
+        height: 40px;
+        background-color: #fff;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    input{
+        border: none;
+        width: 490px;
+        font-size: 20px;
+        padding-left: 20px;
+        border-style: none;
+        border-radius: 20px;
+    }
+    button{
+        width: 200px;
+        border-radius: 20px;
+        margin-right: 5px;
+        border: none;
+        color: #fff;
+        font-size: 18px;
+        height: 90%;
+
+        background: rgb(151,51,238);
+        background: linear-gradient(318deg, rgba(151,51,238,1) 29%, rgba(218,34,255,1) 79%);
+    }
+
+    .main-cont-2{
+     display: flex;
+     gap: 5px;
+    }
+    .img-1{
+        display: flex;
+        width: 350px;
+        gap: 0px;
+        flex-direction: column;
+    }
+    .my-ing-1{
+        width: 350px;
+        height: 200px;
+        border-radius: 20px;
+    }
+   .far{
+         font-size: 40px;
+         color: #fff;
+         position: relative;
+         bottom: 155px;
+         left: 150px;
+         width: 100px;
+         border-radius: 20px;
+        }
+    .p2{
+       color: #fff;
+    }
+    /* end the conteanre */
+ }
+ @media screen and (min-width: 1020px) and (max-width:1440px) {
+    .main-image{
+        background-image: url("https://s3-alpha-sig.figma.com/img/0cfe/eda4/188d4860e6913abbbd4b206adbd37754?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=IaR3anQd8qvhOOrxnMdmRQU0s5z8WcRfsvb-M-YrrZRICka7CXhonmOMjO2cmoueqOchFD47Nvywqp5HJcXwFd7EZ~1kMEtlYKa8Zo-igg9ZS05vw8gbCe8WC36z0SngpiUpU8Ys6DlSJuRtmT3NRXGKy~HdGvMTcwg5dpL5LDzMYsPoONGLvsk~s9m2BnogEZbOT0gywIWc2Jlf8o-HVC21FSRiqGa0wcby9K2qtF9tIViY1QW8o8sYCVqLtXDEJYZU22bO9~WgdlAX11laVJ2r84UswtxJukFzoEzl3oya1SoydAcy1oiIHBlallfAKgoCifsinXaImGvtGFCGsw__");
+        height: 200vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .conteaner{
+        height:80%;
+         width: 100%;
+         background-color: rgba(0, 0, 0, 0.168);
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         gap: 50px;
+         padding-top: 160px;
+         
+    }
+    .conteaner-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+            gap: 50px;
+    }
+    .main-cont-1{
+      color: #fff;
+      display: flex;
+      
+      flex-direction: column;
+      gap: 10px;
+      text-align: center;
+    }
+    .h1{
+       font-size: 55px;
+    }
+    form{
+        display: flex;
+        gap: 0px;
+        width: 950px;
+        height: 40px;
+        background-color: #fff;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    input{
+        border: none;
+        width: 720px;
+        font-size: 20px;
+        padding-left: 20px;
+        border-style: none;
+        border-radius: 20px;
+    }
+    button{
+        width: 200px;
+        border-radius: 20px;
+        margin-right: 5px;
+        border: none;
+        color: #fff;
+        font-size: 18px;
+        height: 90%;
+        background: rgb(151,51,238);
+        background: linear-gradient(318deg, rgba(151,51,238,1) 29%, rgba(218,34,255,1) 79%);
+    }
+
+    .main-cont-2{
+     display: flex;
+     justify-content: center;
+      align-items: center;
+     gap: 5px;
+    }
+    .img-1{
+        display: flex;
+        width: 350px;
+        gap: 0px;
+        flex-direction: column;
+    }
+    .my-ing-1{
+        width: 350px;
+        height: 200px;
+        border-radius: 20px;
+    }
+   .far{
+         font-size: 40px;
+         color: #fff;
+         position: relative;
+         bottom: 155px;
+         left: 150px;
+         width: 100px;
+         border-radius: 20px;
+        }
+    .p2{
+       color: #fff;
+    }
+    /* end the conteanre */
+ }
+ @media screen and (min-width:1440px) and (max-width:2560px) {
+    .conteaner{
+        height:80%;
+         width: 100%;
+         background-color: rgba(0, 0, 0, 0.168);
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         gap: 90px;
+         padding-top: 50px;
+         
+    }
+    .conteaner-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .main-cont-1{
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      text-align: center;
+    }
+    .h1{
+       font-size: 50px;
+    }
+    form{
+        display: flex;
+        gap: 10px;
+        width: 1000px;
+        height: 40px;
+        background-color: #fff;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    input{
+        border: none;
+        width: 900px;
+        font-size: 20px;
+        padding-left: 20px;
+        border-style: none;
+        border-radius: 20px;
+    }
+    button{
+        width: 180px;
+        border-radius: 20px;
+        margin-right: 5px;
+        border: none;
+        color: #fff;
+        font-size: 18px;
+        height: 90%;
+        background: rgb(151,51,238);
+        background: linear-gradient(318deg, rgba(151,51,238,1) 29%, rgba(218,34,255,1) 79%);
+    }
+
+    .main-cont-2{
+     display: flex;
+     gap: 20px;
+     flex-wrap: wrap;
+    }
+    .img-1{
+        display: flex;
+        width: 250px;
+        gap: 0px;
+        flex-direction: column;
+    }
+    .my-ing-1{
+        width: 250px;
+        height: 200px;
+        border-radius: 20px;
+    }
+   .far{
+         font-size: 40px;
+         color: #fff;
+         position: relative;
+         bottom: 155px;
+         left: 100px;
+         width: 100px;
+         border-radius: 20px;
+        }
+    .p2{
+       color: #fff;
+    }
+    .far1{
+     width: 150px;
+    }
+    /* end the conteanre */
+ }
